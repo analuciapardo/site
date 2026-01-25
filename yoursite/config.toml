@@ -1,0 +1,210 @@
+# Site settings
+baseURL = "http://example.org/"
+languageCode = "pt-br"
+title = "DMQ/UNIRIO"
+theme = "forty"
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = "UA-119533545-1"
+
+# Enter your disqus shortname to enable comments
+disqusShortname = ""
+
+[params]
+  # You can use Markdown syntax for urls [text](//url.to/source)
+  # To create multi-line text in strings use the """example Text""" format
+  #
+  # All icons using Fontawesome's icon font. Look at fontawesome.io/icons
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
+
+  # Provide your metadata here.
+  name = "Steven Dutt-Ross"
+  description = "Your description"
+
+  # Link custom assets relative to /static
+  custom_css = []
+  custom_js  = []
+  favicon    = "favicon.ico"
+
+  # Just a custom image variable, please define it in .md files for content.
+  image = ""
+
+  # 404 error customization
+  [params.error404]
+    heading = "Página não encontrada"
+    text = "Please visit [this page](/)"
+
+  # Navigation Section
+  [params.navigation]
+    title = "STEVEN"
+    subtitle = "Dutt-Ross"
+    menu = "Menu"
+    # Optional logo as brand stored in img/
+    # logo = "logo.png"
+
+    [[params.navigation.links]]
+      name = "Home"
+      url = "#"
+
+    # Add custom links here by uncommenting code below. To remove links just delete
+    # the [[params.navigation.links]] map associated with that link. Copy and paste
+    # code below if you need more links. Buttons work in the same way.
+    # [[params.navigation.links]]
+    #    name = "NameOfLink"
+    #    url = "UrlOfLink"
+
+    # Button Style 1
+    #[[params.navigation.button1]]
+    #  name = "Get Started"
+    #  url = "blogs"
+
+    # Button Style 2
+	[[params.navigation.button2]]
+      name = "DATAUNIRIO"
+      url = "https://dataunirio.github.io/"
+	  
+    [[params.navigation.button2]]
+      name = "GAE"
+      url = "http://gae.uniriotec.br/"
+
+    [[params.navigation.button2]]
+      name = "GIEL"
+      url = "http://giel.uniriotec.br/"
+
+	  
+  # Banner section
+  [params.banner]
+    # To change the background image on the homepage banner, replace 'banner.jpg' in
+    # the 'static/img' folder.
+    title = "Bem vindo aos projetos do professor Steven Dutt-Ross"
+    subtitle = "professor do Departamento de Métodos Quantitativos da UNIRIO."
+    buttonText = "Iniciar"
+
+
+  # Tiles Section
+  [params.tiles]
+    enable = true
+    # Display your showcases here.
+    
+    [[params.tiles.showcase]]
+      title = "DATAUNIRIO Estatística, Tecnologia e Sociedade"
+      subtitle = "Projeto de extensão universitária que busca traduzir o Oçamento em para uma linguagem simples"
+      image = "pic04.png"
+      url = "https://dataunirio.github.io/"
+
+    [[params.tiles.showcase]]
+      title = "Grupo de Apoio Estatístico - GAE"
+      subtitle = "Abordagens, técnicas e metodologias para colaboração em projetos de pesquisas quantitativas nos mais variados temas"
+      image = "pic09.jpg"
+      url = "http://gae.uniriotec.br/"
+
+    [[params.tiles.showcase]]
+      title = "Grupo de Investigação Eleitoral - GIEL"
+      subtitle = "O objetivo é investigar o processo que envolve a decisão do voto as estratégias discursivas de candidatos, partidos e coligações, a análise das pesquisas de intenção de opinião."
+      image = "pic03.jpg"
+      url = "http://giel.uniriotec.br/"
+
+    [[params.tiles.showcase]]
+      title = "Artigos Acadêmicos"
+      subtitle = "Publicados em periódicos científicos"
+      image = "pic08.jpg"
+      url = "https://bibliotecagae.blogspot.com/"
+
+    [[params.tiles.showcase]]
+      title = "Currículo Lattes"
+      subtitle = "Versão acadêmica do currículo profissional"
+      image = "pic10.jpg"
+      url = "http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4120420J2"
+
+    [[params.tiles.showcase]]
+      title = "Aulas UNIRIO"
+      subtitle = "Pacote do R construído para facilitar as aulas de estatística na UNIRIO"
+      image = "pic07.jpg"
+      url = "https://github.com/DATAUNIRIO/AulasUNIRIO"
+    # You can make more showcases by copy and pasting the code above
+
+
+  # Section Type Two
+  [params.two]
+    enable = true
+    title = "Aplicativos e Softwares"
+    subtitle = """Minha principal motivação é desenvolver metodologias estatísticas e comunicar resultados em  gráficos e ferramentas fáceis para uso nas Ciencias Sociais. 
+Busco trabalhar com uma diversidade de pessoas para melhorar o conhecimento e a compreensão de dados do mundo real. 
+Minha especialidade e experiência estão em análise quantitativa, modelagem estatística, e R."""
+    #buttonText = "Get Started"
+    #url = "blogs"
+
+
+  # Contact section
+  #[params.contact]
+  #  enable = true
+  #  buttonSend = "Enviar"
+  #  buttonClear = "Corrigir"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below and uncomment
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+    # formEmail = "example@domain.com"
+
+    # Contact Section
+    # You can add multiple emails, phone numbers, or addresses
+    # by copying the corresponding map with frontmatter code.
+    [[params.contact.email]]
+    title = "Email"
+    email = "steven.ross@uniriotec.br"
+
+    [[params.contact.phone]]
+    title = "Telefone"
+    phone = "(21) 2530-2701"
+
+    [[params.contact.address]]
+    title = "Endereço"
+    street = "Avenida Pasteur, 458 Sala 504N - Urca"
+    city = "CEP: 22290-240"
+    country = "Country"
+
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = "DMQ/UNIRIO"
+
+    # Uses font awesome icons
+    [[params.footer.social]]
+      icon = "fa-twitter"
+      url= "https://twitter.com/RJengajado"
+      label = "Twitter"
+
+    [[params.footer.social]]
+      icon = "fa-facebook"
+      url= "https://www.facebook.com/UNIRIOGAE/"
+      label = "Facebook"
+
+    [[params.footer.social]]
+      icon = "fa-instagram"
+      url= "https://www.instagram.com"
+      label = "Instagram"
+    
+    [[params.footer.social]]
+      icon = "fa-github"
+      url= "https://www.github.com/DATAUNIRIO"
+      label = "GitHub"
+
+    [[params.footer.social]]
+      icon = "fa-linkedin"
+      url= "https://www.linkedin.com/in/stevenduttross/"
+      label = "LinkedIn"
+
+    [[params.footer.quicklinks]]
+      text = "Design: "
+      url= "http://gae.uniriotec.br/"
+      alt = "DATAUNIRIO/GAE"

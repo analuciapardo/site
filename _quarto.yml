@@ -1,0 +1,29 @@
+project:
+  type: website
+  render:
+    - "index.qmd"
+    - "404.qmd"
+
+website:
+  title: "Ana Lucia Pardo"
+  navbar:
+    title: "Ana Lucia<br>Pardo"
+    right:
+      - href: artigos/index.qmd
+        text: Artigos
+      - href: livros/index.qmd
+        text: Livros
+  favicon: icon-32.png
+        
+format:
+  html:
+    theme: [cosmo, theme.scss]
+    toc: true
+    link-external-newwindow: true
+    metadata:
+      pagetitle: "Ana Lucia Pardo"
+
+editor: source
+
+execute:
+  freeze: auto

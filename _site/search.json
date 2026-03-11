@@ -1,9 +1,0 @@
-[
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Ana Lúcia Pardo",
-    "section": "",
-    "text": "Hi! I am currently the technical product manager of the hockey group at Zelus Analytics. Prior to moving into sports analytics, I spent nearly a decade working in data management in higher education. I use & love R, with a particular fondness for ggplot2 and quarto.\nI’ve given several talks and workshops, many focused on sports analytics and all available here, and in summer 2021, I taught the Statistical Graphics & Visualization course through the Department of Statistics & Data Science at Carnegie Mellon University. The course focused on data visualization using R and ggplot2, and the public-facing course website (built with distill) is here."
-  }
-]

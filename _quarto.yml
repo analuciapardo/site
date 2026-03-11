@@ -13,6 +13,13 @@ website:
         text: Artigos
       - href: livros/index.qmd
         text: Livros
+      - href: capitulos/index.qmd
+        text: Capitulos
+      - href: coletaneas/index.qmd
+        text: Coletaneas
+      - href: ciclos/index.qmd
+        text: Ciclos
+        
   favicon: icon-32.png
         
 format:

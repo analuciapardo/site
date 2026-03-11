@@ -1,6 +1,6 @@
 ---
-title: "Ana Lucia Pardo"
-subtitle: "Technical Product Manager"
+title: "Ana Lúcia Pardo"
+subtitle: "Políticas Culturais"
 image: headshot.jpeg 
 toc: false 
 about: 
@@ -10,13 +10,10 @@ about:
   links:
     - icon: twitter
       text: Twitter
-      href: https://twitter.com/MeghanMHall
-    - icon: github
-      text: GitHub
-      href: https://github.com/meghall06
+      href: https://twitter.com/
     - icon: envelope
       text: Email
-      href: mailto:meghanhall6@gmail.com
+      href: mailto:anapardo.teatralidade@gmail.com
 format:
   html:
     link-external-newwindow: true

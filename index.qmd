@@ -19,6 +19,17 @@ format:
     link-external-newwindow: true
 ---
 
-Hi! I am currently the technical product manager of the hockey group at [Zelus Analytics](https://zelusanalytics.com/){target="_blank"}. Prior to moving into sports analytics, I spent nearly a decade working in data management in higher education. I use & love R, with a particular fondness for `ggplot2` and `quarto`.
+Pós-doutora no Programa de Pós-Graduação em Cultura e Territorialidades (PPCULT-UFF). Doutora e mestre em Políticas Públicas e Formação Humana (PPFH-UERJ).
 
-I've given several talks and workshops, many focused on sports analytics and all available [here](talks/index.qmd), and in summer 2021, I taught the Statistical Graphics & Visualization course through the Department of Statistics & Data Science at Carnegie Mellon University. The course focused on data visualization using R and ggplot2, and the public-facing course website (built with `distill`) is [here](https://cmu-36315.netlify.app/){target="_blank"}.
+Assessora da Comissão de Cultura da Assembleia Legislativa do Estado do Rio de Janeiro (ALERJ).
+
+Atriz, jornalista, gestora cultural, pesquisadora, professora da Associação Brasileira de Gestão Cultural (ABGC).
+
+Na gestão pública, assumiu funções de Ouvidora e de Coordenadora da Divisão de Políticas Culturais do Ministério da Cultura na Representação Regional RJ/ES; Assessora da Divisão de Estudos e Pesquisas da Funarte; da Fundação Biblioteca Nacional, Assessora especial da Fundação Nacional dos Povos Indígenas – FUNAI e da Secretaria de Meio Ambiente (AM). Curadora e coordenadora de painéis, ciclo/seminários nacionais e internacionais de artes, cultura e pensamento.
+
+<!--
+Hi! I am currently the technical product manager of the hockey group at [Zelus Analytics](https://zelusanalytics.com/){target="_blank"}. Prior to moving into sports analytics, I spent nearly a decade working in data management in higher education. I use & love R
+
+I've given several talks and workshops, many focused on sports analytics and all available [here](talks/index.qmd), and in summer 2021, I taught the Statistical [here](https://cmu-36315.netlify.app/){target="_blank"}.
+
+-->

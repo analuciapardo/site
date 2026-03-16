@@ -10,7 +10,7 @@ website:
   navbar:
     title: "Ana Lucia<br>Pardo"
     right:
-      - href: artigos/index.qmd
+      - href: artigos/index.html
         text: Artigos
       - href: livros/index.qmd
         text: Livros

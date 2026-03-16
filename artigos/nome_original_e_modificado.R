@@ -99,3 +99,60 @@ novo = c("artigo_a_lei_aldir_blanc_para_a_arte_de_rua_e_circ",
   "artigo_sobre_a_cultura_comunitaria_na_america_lati",
   "artigo_sobre_trabalho_na_cultura_dossie_revista_pr")
 
+#-------------------------------------------------------------------------------------
+
+
+
+```{r results="asis",echo=FALSE}
+
+
+dir_path = "C:/Users/duttr/OneDrive/Documentos/GitHub/site/artigos"
+# listar pdfs
+files <- list.files(dir_path, pattern = "\\.pdf$", full.names = TRUE)
+nomes <- basename(files)
+
+original = c("Artigo A Lei Aldir Blanc para a Arte de Rua e Circo - Ana Lúcia Pardo (2)[1]",
+             "Artigo Ana Lúcia Pardo apresentado no XIII Seminário Internacional de Políticas Culturais 2024 FCRB",
+             "Artigo de Ana Lúcia Pardo apresentado no X Congresso Latino-Americano de Ciência Política no México 2019",
+             "Artigo de Ana Lúcia Pardo apresentado no XVII ENECULT 2021",
+             "Artigo de Ana Lúcia Pardo e Luiz Augusto F. Rodrigues na Revista La Roca 2020 digital__wecompress.com_",
+             "Artigo de Ana Lúcia Pardo e Steven Dutt Ross na publicação Apoena",
+             "Artigo de Ana Lúcia Pardo e Steven Dutt Ross no ENECULT",
+             "Artigo de Ana Lúcia Pardo no LIVRO A TEATRALIDADE DO HUMANO (1)",
+             "Artigo de Ana Lúcia Pardo no V Encontro Nacional da ULEPIC Brasil 2014",
+             "Artigo de Ana Lúcia Pardo no VI Seminário Internacional de Políticas Culturais 2015",
+             "Artigo de Ana Lúcia Pardo no XI ENECULT 2015",
+             "Artigo de Ana Lúcia Pardo no XI Seminário Internacional de Políticas Culturais FCRB e LABAC 2020",
+             "Artigo de Ana Lúcia Pardo no XII Seminário Internacional de Políticas Culturais 2023",
+             "ARTIGO DE ANA LÚCIA PARDO PARA O DOSSIÊ TRABALHO CULTURAL E PRECARIEDADE DA REVISTA PRAGMATIZES DA UFF 2021 (2)",
+             "ARTIGO DE ANA LUCIA PARDO PARA O XVII ENECULT (1)",
+             "ARTIGO DE ANA LÚCIA PARDO SOBRE OS CONCEITOS DE CULTURA (1)[1]",
+             "ARTIGO DE ANA LÚCIA R. PARDO NO GT 153 XV RAM",
+             "Artigo Dossiê Pontos de Cultura para Políticas Culturais em Revista",
+             "ARTIGO O LUGAR DA CULTURA NO GOVERNO BRASILEIRO de Ana Pardo (1)",
+             "ARTIGO O QUE REVELAM E OCULTAM AS MÁSCARAS NOS PROTESTOS DAS RUAS[1]",
+             "Artigo publicado no ebook Arte Política e Sociedade Editora CLAEC",
+             "ARTIGO SOBRE A CULTURA COMUNITÁRIA NA AMERICA LATINA ANA PARDO",
+             "Artigo sobre Trabalho na Cultura Dossiê Revista PragMatizes UFF pdf (2)")
+
+
+#link_text <- original[1]
+#url <- paste0('https://raw.githubusercontent.com/analuciapardo/site/main/artigos/',nomes[1])
+#cat("[", link_text, "](", url, ")", sep="")
+
+
+link_text <- NULL
+url <- NULL
+
+N <- 23
+for(i in 10:N){
+  link_text[i] <- original[i]
+  url[i] <- paste0('https://raw.githubusercontent.com/analuciapardo/site/main/artigos/',nomes[i])
+  cat("[", link_text[i], "](", url[i], ")", sep="")
+}
+
+# install.packages("htmltools")
+#library(htmltools)
+#tags$a(href = "https://www.rstudio.com", "RStudio Website")
+
+```

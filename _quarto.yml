@@ -25,7 +25,7 @@ website:
         
 format:
   html:
-    theme: [cosmo, theme.scss]
+    theme: [cosmo]
     toc: true
     link-external-newwindow: true
     metadata:
